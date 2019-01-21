@@ -1,0 +1,150 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta name="GENERATOR" content="Microsoft FrontPage 4.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<title>New Page 1</title>
+</head>
+
+<body>
+
+<font face="Arial" size="4" color="#000000">
+<b>
+<p align="center"><u>Version History</u></p>
+</b></font>
+<p><u><b><font face="Arial" size="3">1.5.1</font></b></u></p>
+<ul>
+<li>&nbsp;&nbsp;&nbsp;<font face="Arial" size="2">Modified error logging to give a note on known issues.</li>
+<li>&nbsp;&nbsp;&nbsp;<font face="Arial" size="2">Added index checking for foreign keys (not foolproof).</li>
+<li>&nbsp;&nbsp;&nbsp;<font face="Arial" size="2">Parse field names for foreign keys</li>
+<li>&nbsp;&nbsp;&nbsp;<font face="Arial" size="2">Added more characters to the parsing list</li>
+<li>&nbsp;&nbsp;&nbsp;<font face="Arial" size="2">Updated parsing word-list to allow SQL Keywords, but quote them.</li>
+</ul>
+
+
+<p><u><b><font face="Arial" size="3">1.5.0</font></b></u></p>
+<ul>
+<li>&nbsp;&nbsp;&nbsp;<font face="Arial" size="2"> MyVBQL Engine replaced with VbMySqlDirect</font></li>
+<li>&nbsp;&nbsp;&nbsp;<font face="Arial" size="2"> Modified error rising so they can be caught in DB Converter.</font></li>
+<li>&nbsp;&nbsp;&nbsp;<font face="Arial" size="2"> Error logging when connecting to MySQL DB. </font></li>
+<li>&nbsp;&nbsp;&nbsp;<font face="Arial" size="2"> If errors are generated you are encouraged to email them to me.</font></li>
+<li>&nbsp;&nbsp;&nbsp;<font face="Arial" size="2"> Closing download page now cancels downloading</font></li>
+<li>&nbsp;&nbsp;&nbsp;<font face="Arial" size="2"> Used to continue downloading</font></li>
+<li>&nbsp;&nbsp;&nbsp;<font face="Arial" size="2"> Upgrade checks now work again</font></li>
+<li>&nbsp;&nbsp;&nbsp;<font face="Arial" size="2"> PHP page now instead of direct connection</font></li>
+<li>&nbsp;&nbsp;&nbsp;<font face="Arial" size="2"> Program does not freeze while calculating # of SQL Statements on MySQL Connection </font></li>
+<li>&nbsp;&nbsp;&nbsp;<font face="Arial" size="2"> Still is slow while it loads big files into memory</font></li>
+<li>&nbsp;&nbsp;&nbsp;<font face="Arial" size="2"> Should be swapped to stream</font></li>
+<li>&nbsp;&nbsp;&nbsp;<font face="Arial" size="2"> Fixed crash if default browse folder does not exist.</font></li>
+<li>&nbsp;&nbsp;&nbsp;<font face="Arial" size="2"> Fixed error if output folder did not exist</font></li>
+<li>&nbsp;&nbsp;&nbsp;<font face="Arial" size="2"> Parsed many more characters out of field and table names</font></li>
+<li>&nbsp;&nbsp;&nbsp;<font face="Arial" size="2"> Disallow “SELECT”, “INSERT”, and other SQL keywords as table/field names</font></li>
+<li>&nbsp;&nbsp;&nbsp;<font face="Arial" size="2"> Removed: Too many to list. Mostly punctuation and mathematical operators (+,-,/,*,etc)</font></li>
+</ul>
+
+
+<p><u><b><font face="Arial" size="3">Code from Marco (Thanks for contributing!):</font></b></u></p>
+<ul>
+<li>&nbsp;&nbsp;&nbsp;<font face="Arial" size="2"> INNODB Support</font></li>
+<li>&nbsp;&nbsp;&nbsp;<font face="Arial" size="2"> Option added to main options form - MC.</font></li>
+<li>&nbsp;&nbsp;&nbsp;<font face="Arial" size="2"> Foreign Keys for INNODB Added</font></li>
+<li>&nbsp;&nbsp;&nbsp;<font face="Arial" size="2"> Default value support for fields</font></li>
+<li>&nbsp;&nbsp;&nbsp;<font face="Arial" size="2"> Bug fix: Marco forgot to parse index names – MC</font></li>
+<li>&nbsp;&nbsp;&nbsp;<font face="Arial" size="2"> Bug fix: Removed DEFAULT for AUTO_INCREMENT fields - MC</font></li>
+<li>&nbsp;&nbsp;&nbsp;<font face="Arial" size="2"> Non-Primary Indexes Added</font></li>
+</ul>
+<p><u><b><font face="Arial" size="3">1.4.2</font></b></u></p>
+<ul>
+<li>&nbsp;&nbsp;&nbsp;<font face="Arial" size="2"> Some parsing changes.</font></li>
+<li>&nbsp;&nbsp;&nbsp;<font face="Arial" size="2"> Possibly some other stuff that has been long forgotten.</font></li>
+</ul>
+<p><u><b><font face="Arial" size="3">1.4.0</font></b></u></p>
+<ul>
+<li>&nbsp;&nbsp;&nbsp;<font face="Arial" size="2"> No big changes. Incorporated GNU public license.</font></li>
+<li>&nbsp;&nbsp;&nbsp;<font face="Arial" size="2"> Removed mandatory donation (aka Free for Non-Commercial Use)</font></li>
+</ul>
+<p><u><b><font face="Arial" size="3">1.3.6</font></b></u></p>
+<ul>
+<li>&nbsp;&nbsp;&nbsp;<font face="Arial" size="2"> Found some debug code that was missed during cleanup last version. Has been removed and should make a small performance difference.</font></li>
+<li>&nbsp;&nbsp;&nbsp;<font face="Arial" size="2"> Replaced many control.Refresh instances with DoEvents. In large conversions this helps avoid screen flickering that was happening before.</font></li>
+<li>&nbsp;&nbsp;&nbsp;<font face="Arial" size="2"> Added a simple survey system for suggestions on features to add/remove. (Hard coded at the moment, but it may get expanded to be dynamic if there is a big enough response)</font></li>
+</ul>
+<p><u><b><font face="Arial" size="3">1.3.5</font></b></u></p>
+<ul>
+<li>&nbsp;&nbsp;&nbsp;<font face="Arial" size="2"> Added option to convert only tables you specify</font></li>
+<li>&nbsp;&nbsp;&nbsp;<font face="Arial" size="2"> Required major rewrite of conversion code… but it works great!</font></li>
+<li>&nbsp;&nbsp;&nbsp;<font face="Arial" size="2"> Fixed many more typos (praise my dexterous fingers)</font></li>
+</ul>
+<p><u><b><font face="Arial" size="3">1.3.0</font></b></u></p>
+<ul>
+<li>&nbsp;&nbsp;&nbsp;<font face="Arial" size="2"> Removed the shell for “Convert with DB Converter”</font></li>
+<li>&nbsp;&nbsp;&nbsp;<font face="Arial" size="2"> Many complaints about double clicking an access database wouldn’t open access</font></li>
+<li>&nbsp;&nbsp;&nbsp;<font face="Arial" size="2"> Changed many options to use bitvectors for faster access</font></li>
+<li>&nbsp;&nbsp;&nbsp;<font face="Arial" size="2"> Added auto-update support</font></li>
+</ul>
+<p><u><b><font face="Arial" size="3">1.2.6</font></b></u></p>
+<ul>
+<li>&nbsp;&nbsp;&nbsp;<font face="Arial" size="2"> Added donation support through Paypal</font></li>
+<li>&nbsp;&nbsp;&nbsp;<font face="Arial" size="2"> Made the “/uninstall” command line option work again</font></li>
+<li>&nbsp;&nbsp;&nbsp;<font face="Arial" size="2"> Uninstall from the start menu should work again</font></li>
+</ul>
+<p><u><b><font face="Arial" size="3">1.2.5</font></b></u></p>
+<ul>
+<li>&nbsp;&nbsp;&nbsp;<font face="Arial" size="2"> Fixed various data conversion bugs</font></li>
+<li>&nbsp;&nbsp;&nbsp;<font face="Arial" size="2"> Error if there were spaces in table names (now replaced with underscore)</font></li>
+<li>&nbsp;&nbsp;&nbsp;<font face="Arial" size="2"> Error converting dates (datetime not supported yet)</font></li>
+<li>&nbsp;&nbsp;&nbsp;<font face="Arial" size="2"> Added option to not yell at you when converting linked tables</font></li>
+<li>&nbsp;&nbsp;&nbsp;<font face="Arial" size="2"> Changed text types to convert to their field length rather than 250</font></li>
+
+</ul>
+<p><u><b><font face="Arial" size="3">1.2.3</font></b></u></p>
+<ul>
+Fixed a bug if the first character in your data was a “ (quotation)
+Added checking for linked tables
+</ul>
+<p><u><b><font face="Arial" size="3">1.2.0</font></b></u></p>
+<ul>
+  <ul>Totally rewrote MySQL and FTP functions to be more
+    efficient</font></li>
+  <li>&nbsp;&nbsp;&nbsp;<font face="Arial" size="2"> Fixed bug if databases are
+    read only/locked (caught it trying to read from a CD)</font></li>
+  <li><font face="Arial" size="2">&nbsp;&nbsp;&nbsp; Fixed parsing bug in MySQL
+    when data was converted</font></li><font face="Arial" size="2">
+<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Error if there was a double
+    quote (&quot;) or semicolon (;)</font>
+
+  <font face="Arial" size="2">
+  <li>&nbsp;&nbsp;&nbsp; Added progress indicators on conversion (sexy)</li>
+  <li>&nbsp;&nbsp;&nbsp; Added password encryption (finally)</li>
+  <li>&nbsp;&nbsp;&nbsp; Added tutorial and version history to help files</li>
+</ul></font>
+
+<p><u><b><font face="Arial" size="3">1.1.5</font></b></u></p>
+<ul>
+  <li><font face="Arial" size="2">&nbsp;&nbsp;&nbsp; Added MySQL connection functionality</font></li>
+</ul>
+
+<p><b><u><font face="Arial" size="3">1.1.0</font></u></b></p>
+<ul>
+  <li><font face="Arial" size="2">&nbsp;&nbsp;&nbsp; Added FTP functionality</font></li>
+</ul>
+<p><b><u><font face="Arial" size="3">1.0.9</font></u></b></p>
+<ul>
+  <li><font face="Arial" size="2">&nbsp;&nbsp;&nbsp; Added help files</font>
+
+  </li>
+  <li><font face="Arial" size="2">&nbsp;&nbsp;&nbsp; Added data conversion option</font></li>
+</ul>
+
+<p align="left"><font face="Arial" color="#000000" size="3"><u><b>1.0.0</b></u></font></p>
+<ul>
+  <li>&nbsp;&nbsp;&nbsp;
+<font face="Arial" size="2">Original Release</font>
+  </li>
+</ul>
+
+</body>
+
+</html>

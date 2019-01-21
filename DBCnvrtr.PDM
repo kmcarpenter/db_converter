@@ -1,0 +1,461 @@
+[Root]
+Most Recent Package=Standard Setup Package 4
+
+
+[Package|Standard Setup Package 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Documents and Settings\Zenwerx\My Documents\BTE-Xref\SQL_Converter\package
+
+[Package|Standard Setup Package 1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 1|Files Found]
+
+[Package|Standard Setup Package 1|Files Released]
+
+[Package|Standard Setup Package 1|Missing Dependency Information]
+C:\WINDOWS\SYSTEM32\COMDLG32.OCX=
+
+[Package|Standard Setup Package 1|Out-of-Date Dependency Information]
+
+[Package|Standard Setup Package 1|Files Added]
+
+[Package|Standard Setup Package 1|Files Removed]
+
+[Package|Standard Setup Package 1|Files In Project]
+C:\Documents and Settings\Zenwerx\My Documents\BTE-Xref\SQL_Converter\DBCnvrtr.exe=Yes
+C:\WINDOWS\SYSTEM32\msvbvm60.dll=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\SYSTEM32\COMDLG32.OCX=Yes
+C:\Program Files\Common Files\Microsoft Shared\DAO\dao360.dll=Yes
+C:\WINDOWS\SYSTEM32\msjet40.dll=Yes
+C:\WINDOWS\SYSTEM32\msjter40.dll=Yes
+C:\WINDOWS\SYSTEM32\msjint40.dll=Yes
+C:\WINDOWS\SYSTEM32\vbajet32.dll=Yes
+C:\WINDOWS\SYSTEM32\expsrv.dll=Yes
+C:\WINDOWS\SYSTEM32\mswstr10.dll=Yes
+C:\WINDOWS\SYSTEM32\mswdat10.dll=Yes
+C:\WINDOWS\SYSTEM32\msrd2x40.dll=Yes
+C:\WINDOWS\SYSTEM32\msrd3x40.dll=Yes
+C:\WINDOWS\SYSTEM32\msrepl40.dll=Yes
+C:\WINDOWS\SYSTEM32\msjtes40.dll=Yes
+C:\WINDOWS\SYSTEM32\VB5DB.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\SYSTEM32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|Standard Setup Package 1|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 1|Install Locations]
+C:\Documents and Settings\Zenwerx\My Documents\BTE-Xref\SQL_Converter\DBCnvrtr.exe=$(AppPath)
+C:\WINDOWS\SYSTEM32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\COMDLG32.OCX=$(WinSysPath)
+C:\Program Files\Common Files\Microsoft Shared\DAO\dao360.dll=$(MSDAOPath)
+C:\WINDOWS\SYSTEM32\msjet40.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\msjter40.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\msjint40.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\vbajet32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\expsrv.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\mswstr10.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\mswdat10.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\msrd2x40.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\msrd3x40.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\msrepl40.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\msjtes40.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\VB5DB.DLL=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|Standard Setup Package 1|Configure Shared Files]
+Applicable=Yes
+C:\Documents and Settings\Zenwerx\My Documents\BTE-Xref\SQL_Converter\DBCnvrtr.exe=Yes
+
+[Package|Standard Setup Package 1|Distribution]
+Type=single
+Size=
+Title=DBCnvrtr
+
+[Package|Standard Setup Package 1|IconGroups]
+Group0=DB Converter
+PrivateGroup0=0
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 1|DB Converter]
+Icon1=DBCnvrtr.exe
+Title1=DB Converter
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package 1|Package]
+PackageFolder=C:\Documents and Settings\Zenwerx\My Documents\BTE-Xref\SQL_Converter\package
+ProjectFolder=C:\Documents and Settings\Zenwerx\My Documents\BTE-Xref\SQL_Converter
+ServerSideCab=
+File1=C:\Documents and Settings\Zenwerx\My Documents\BTE-Xref\SQL_Converter\package\setup.exe
+File2=C:\Documents and Settings\Zenwerx\My Documents\BTE-Xref\SQL_Converter\package\Setup.Lst
+File3=C:\Documents and Settings\Zenwerx\My Documents\BTE-Xref\SQL_Converter\package\DBCnvrtr.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|Standard Setup Package 2|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Documents and Settings\Zenwerx\My Documents\BTE-Xref\SQL_Converter\package
+
+[Package|Standard Setup Package 2|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Package 2|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 2|Files Found]
+
+[Package|Standard Setup Package 2|Files Released]
+
+[Package|Standard Setup Package 2|Missing Dependency Information]
+
+[Package|Standard Setup Package 2|Out-of-Date Dependency Information]
+
+[Package|Standard Setup Package 2|Files Added]
+
+[Package|Standard Setup Package 2|Files Removed]
+
+[Package|Standard Setup Package 2|Files In Project]
+C:\Documents and Settings\Zenwerx\My Documents\BTE-Xref\SQL_Converter\DBCnvrtr.exe=Yes
+C:\WINDOWS\SYSTEM32\msvbvm60.dll=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\SYSTEM32\COMDLG32.OCX=Yes
+C:\Program Files\Common Files\Microsoft Shared\DAO\dao360.dll=Yes
+C:\WINDOWS\SYSTEM32\msjet40.dll=Yes
+C:\WINDOWS\SYSTEM32\msjter40.dll=Yes
+C:\WINDOWS\SYSTEM32\msjint40.dll=Yes
+C:\WINDOWS\SYSTEM32\vbajet32.dll=Yes
+C:\WINDOWS\SYSTEM32\expsrv.dll=Yes
+C:\WINDOWS\SYSTEM32\mswstr10.dll=Yes
+C:\WINDOWS\SYSTEM32\mswdat10.dll=Yes
+C:\WINDOWS\SYSTEM32\msrd2x40.dll=Yes
+C:\WINDOWS\SYSTEM32\msrd3x40.dll=Yes
+C:\WINDOWS\SYSTEM32\msrepl40.dll=Yes
+C:\WINDOWS\SYSTEM32\msjtes40.dll=Yes
+C:\WINDOWS\SYSTEM32\VB5DB.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\SYSTEM32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|Standard Setup Package 2|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 2|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 2|Install Locations]
+C:\Documents and Settings\Zenwerx\My Documents\BTE-Xref\SQL_Converter\DBCnvrtr.exe=$(AppPath)
+C:\WINDOWS\SYSTEM32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\COMDLG32.OCX=$(WinSysPath)
+C:\Program Files\Common Files\Microsoft Shared\DAO\dao360.dll=$(MSDAOPath)
+C:\WINDOWS\SYSTEM32\msjet40.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\msjter40.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\msjint40.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\vbajet32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\expsrv.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\mswstr10.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\mswdat10.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\msrd2x40.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\msrd3x40.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\msrepl40.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\msjtes40.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\VB5DB.DLL=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|Standard Setup Package 2|Configure Shared Files]
+Applicable=Yes
+C:\Documents and Settings\Zenwerx\My Documents\BTE-Xref\SQL_Converter\DBCnvrtr.exe=Yes
+
+[Package|Standard Setup Package 2|Distribution]
+Type=single
+Size=
+Title=DB Converter
+
+[Package|Standard Setup Package 2|IconGroups]
+Group0=DB Converter
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 2|DB Converter]
+Icon1=DBCnvrtr.exe
+Title1=DB Converter
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package 2|Package]
+PackageFolder=C:\Documents and Settings\Zenwerx\My Documents\BTE-Xref\SQL_Converter\package
+ProjectFolder=C:\Documents and Settings\Zenwerx\My Documents\BTE-Xref\SQL_Converter
+ServerSideCab=
+File1=C:\Documents and Settings\Zenwerx\My Documents\BTE-Xref\SQL_Converter\package\setup.exe
+File2=C:\Documents and Settings\Zenwerx\My Documents\BTE-Xref\SQL_Converter\package\Setup.Lst
+File3=C:\Documents and Settings\Zenwerx\My Documents\BTE-Xref\SQL_Converter\package\DBCnvrtr.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|Standard Setup Package 3|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Documents and Settings\Zenwerx\My Documents\BTE-Xref\SQL_Converter\package
+
+[Package|Standard Setup Package 3|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Package 3|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 3|Files Found]
+
+[Package|Standard Setup Package 3|Files Released]
+
+[Package|Standard Setup Package 3|Missing Dependency Information]
+
+[Package|Standard Setup Package 3|Out-of-Date Dependency Information]
+
+[Package|Standard Setup Package 3|Files Added]
+
+[Package|Standard Setup Package 3|Files Removed]
+
+[Package|Standard Setup Package 3|Files In Project]
+C:\Documents and Settings\Zenwerx\My Documents\BTE-Xref\SQL_Converter\DBCnvrtr.exe=Yes
+C:\WINDOWS\SYSTEM32\msvbvm60.dll=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\SYSTEM32\COMDLG32.OCX=Yes
+C:\Program Files\Common Files\Microsoft Shared\DAO\dao360.dll=Yes
+C:\WINDOWS\SYSTEM32\msjet40.dll=Yes
+C:\WINDOWS\SYSTEM32\msjter40.dll=Yes
+C:\WINDOWS\SYSTEM32\msjint40.dll=Yes
+C:\WINDOWS\SYSTEM32\vbajet32.dll=Yes
+C:\WINDOWS\SYSTEM32\expsrv.dll=Yes
+C:\WINDOWS\SYSTEM32\mswstr10.dll=Yes
+C:\WINDOWS\SYSTEM32\mswdat10.dll=Yes
+C:\WINDOWS\SYSTEM32\msrd2x40.dll=Yes
+C:\WINDOWS\SYSTEM32\msrd3x40.dll=Yes
+C:\WINDOWS\SYSTEM32\msrepl40.dll=Yes
+C:\WINDOWS\SYSTEM32\msjtes40.dll=Yes
+C:\WINDOWS\SYSTEM32\VB5DB.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\SYSTEM32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|Standard Setup Package 3|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 3|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 3|Install Locations]
+C:\Documents and Settings\Zenwerx\My Documents\BTE-Xref\SQL_Converter\DBCnvrtr.exe=$(AppPath)
+C:\WINDOWS\SYSTEM32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\COMDLG32.OCX=$(WinSysPath)
+C:\Program Files\Common Files\Microsoft Shared\DAO\dao360.dll=$(MSDAOPath)
+C:\WINDOWS\SYSTEM32\msjet40.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\msjter40.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\msjint40.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\vbajet32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\expsrv.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\mswstr10.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\mswdat10.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\msrd2x40.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\msrd3x40.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\msrepl40.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\msjtes40.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\VB5DB.DLL=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|Standard Setup Package 3|Configure Shared Files]
+Applicable=Yes
+C:\Documents and Settings\Zenwerx\My Documents\BTE-Xref\SQL_Converter\DBCnvrtr.exe=Yes
+
+[Package|Standard Setup Package 3|Distribution]
+Type=single
+Size=
+Title=DB Converter
+
+[Package|Standard Setup Package 3|IconGroups]
+Group0=DB Converter
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 3|DB Converter]
+Icon1=DBCnvrtr.exe
+Title1=DB Converter
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package 3|Package]
+PackageFolder=C:\Documents and Settings\Zenwerx\My Documents\BTE-Xref\SQL_Converter\package
+ProjectFolder=C:\Documents and Settings\Zenwerx\My Documents\BTE-Xref\SQL_Converter
+ServerSideCab=
+File1=C:\Documents and Settings\Zenwerx\My Documents\BTE-Xref\SQL_Converter\package\setup.exe
+File2=C:\Documents and Settings\Zenwerx\My Documents\BTE-Xref\SQL_Converter\package\Setup.Lst
+File3=C:\Documents and Settings\Zenwerx\My Documents\BTE-Xref\SQL_Converter\package\DBCnvrtr.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|Standard Setup Package 4|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Documents and Settings\Zenwerx\My Documents\BTE-Xref\SQL_Converter\package
+
+[Package|Standard Setup Package 4|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Package 4|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 4|Files Found]
+
+[Package|Standard Setup Package 4|Files Released]
+
+[Package|Standard Setup Package 4|Missing Dependency Information]
+
+[Package|Standard Setup Package 4|Out-of-Date Dependency Information]
+
+[Package|Standard Setup Package 4|Files Added]
+
+[Package|Standard Setup Package 4|Files Removed]
+
+[Package|Standard Setup Package 4|Files In Project]
+C:\Documents and Settings\Zenwerx\My Documents\BTE-Xref\SQL_Converter\DBCnvrtr.exe=Yes
+C:\WINDOWS\SYSTEM32\msvbvm60.dll=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\SYSTEM32\COMDLG32.OCX=Yes
+C:\Program Files\Common Files\Microsoft Shared\DAO\dao360.dll=Yes
+C:\WINDOWS\SYSTEM32\msjet40.dll=Yes
+C:\WINDOWS\SYSTEM32\msjter40.dll=Yes
+C:\WINDOWS\SYSTEM32\msjint40.dll=Yes
+C:\WINDOWS\SYSTEM32\vbajet32.dll=Yes
+C:\WINDOWS\SYSTEM32\expsrv.dll=Yes
+C:\WINDOWS\SYSTEM32\mswstr10.dll=Yes
+C:\WINDOWS\SYSTEM32\mswdat10.dll=Yes
+C:\WINDOWS\SYSTEM32\msrd2x40.dll=Yes
+C:\WINDOWS\SYSTEM32\msrd3x40.dll=Yes
+C:\WINDOWS\SYSTEM32\msrepl40.dll=Yes
+C:\WINDOWS\SYSTEM32\msjtes40.dll=Yes
+C:\WINDOWS\SYSTEM32\VB5DB.DLL=Yes
+C:\WINDOWS\SYSTEM32\TABCTL32.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\SYSTEM32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|Standard Setup Package 4|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 4|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 4|Install Locations]
+C:\Documents and Settings\Zenwerx\My Documents\BTE-Xref\SQL_Converter\DBCnvrtr.exe=$(AppPath)
+C:\WINDOWS\SYSTEM32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\COMDLG32.OCX=$(WinSysPath)
+C:\Program Files\Common Files\Microsoft Shared\DAO\dao360.dll=$(MSDAOPath)
+C:\WINDOWS\SYSTEM32\msjet40.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\msjter40.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\msjint40.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\vbajet32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\expsrv.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\mswstr10.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\mswdat10.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\msrd2x40.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\msrd3x40.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\msrepl40.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\msjtes40.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\VB5DB.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\TABCTL32.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|Standard Setup Package 4|Configure Shared Files]
+Applicable=Yes
+C:\Documents and Settings\Zenwerx\My Documents\BTE-Xref\SQL_Converter\DBCnvrtr.exe=No
+
+[Package|Standard Setup Package 4|Distribution]
+Type=single
+Size=
+Title=DBCnvrtr
+
+[Package|Standard Setup Package 4|IconGroups]
+Group0=DBCnvrtr
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 4|DBCnvrtr]
+Icon1=DBCnvrtr.exe
+Title1=DBCnvrtr
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package 4|Package]
+PackageFolder=C:\Documents and Settings\Zenwerx\My Documents\BTE-Xref\SQL_Converter\package
+ProjectFolder=C:\Documents and Settings\Zenwerx\My Documents\BTE-Xref\SQL_Converter
+ServerSideCab=
+File1=C:\Documents and Settings\Zenwerx\My Documents\BTE-Xref\SQL_Converter\package\setup.exe
+File2=C:\Documents and Settings\Zenwerx\My Documents\BTE-Xref\SQL_Converter\package\Setup.Lst
+File3=C:\Documents and Settings\Zenwerx\My Documents\BTE-Xref\SQL_Converter\package\DBCnvrtr.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz

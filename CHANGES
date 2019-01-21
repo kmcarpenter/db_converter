@@ -1,0 +1,36 @@
+Changes from 1.5.1 to 1.5.2
+
+- Added "DECIMAL" keyword to list of special words to escape
+- Modified PHP Output
+	* Support for default values
+	* Correctly handle NULL values
+	* Prints MySQL errors, if received
+	* Other updates MySQL conversion received, but PHP missed.
+- Updated version checking system.
+
+Changes from 1.5.0 to 1.5.1:
+
+- Modified error logging to give a note on known issues
+- Added index checking for foreign keys (not foolproof)
+- Parse field names for foreign keys (whoops, forgot that one)
+- Added more illegal characters to parsing list
+- Changed sql keywords (in parsing list) to be allowed, but quoted
+
+
+Changes from 1.4.2 to 1.5.0:
+
+- Closing download page now cancels downloading
+	* Used to continue downloading
+- Upgrade checks now work again
+	* PHP page now instead of direct connection
+- Program does not freeze while calculating SQL Statements on MySQL Connection
+- Fixed crash if default browse folder does not exist.
+
+
+(From Marco Antonio Regueria Soengas. Thanks for contributing!)
+- INNODB Support
+	* Option added on main options form by Michael Carpenter.
+- Default value support for fields
+- Indexes
+- Foreign keys
+- Several changes to data export.

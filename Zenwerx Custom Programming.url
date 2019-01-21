@@ -1,0 +1,10 @@
+[DEFAULT]
+BASEURL=http://www.zenwerx.com/
+
+[DOC#31]
+BASEURL=http://www.zenwerx.com/main.html
+ORIGURL=main.html
+
+[InternetShortcut]
+URL=http://www.zenwerx.com/
+Modified=2097E2EEE5BEC101EC
